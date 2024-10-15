@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Footer = () => {
+const Winners = () => {
   return (
     <div>
       <div>
         <div>
-            Footer
+            2024 Winners
         </div>
       </div>
     </div>
   )
 }
 
-export default Footer
+export default Winners

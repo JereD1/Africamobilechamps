@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Footer = () => {
+const Social = () => {
   return (
     <div>
       <div>
         <div>
-            Footer
+            Join Our Social
         </div>
       </div>
     </div>
   )
 }
 
-export default Footer
+export default Social
