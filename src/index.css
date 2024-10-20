@@ -10,3 +10,23 @@
   list-style: none;
   font-family: 'Roboto', sans-serif 'Times New Roman', Times, serif;
 }
+
+.black-color{
+  color: #1111 ;
+}
+
+.white-color{
+  color: #ffff ;
+}
+
+.amc--dark-color{
+  color: #965D1F ;
+}
+
+.amc--light-color{
+  color: #D99A27 ;
+}
+
+.amc--matte-color{
+  color: #3F3F3F ;
+}

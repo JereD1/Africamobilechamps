@@ -1,12 +1,16 @@
 import React from 'react'
-import Testcomponent from '../components/testcomponent'
+import CreateTournament from '../components/CreateTournanment'
+import CreateTeam from '../components/CreateTeam'
 
 const DashboardPage = () => {
   return (
     <div>
       <div>
         <h1>Dashboard</h1>
-        <Testcomponent />
+        < CreateTournament />
+        <div className='m-20 p-4'>
+          <CreateTeam />
+        </div>
       </div>
     </div>
   )

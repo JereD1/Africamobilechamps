@@ -22,6 +22,8 @@ Welcome to the **African Mobile Championship**! This platform is dedicated to ho
 
 - **Backend**:
   - Node.js
+  - Firebase Storage
+  - Firebase Authentication
   - Express
   - MongoDB
 
