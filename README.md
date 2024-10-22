@@ -1,76 +1,29 @@
-Africa Mobile Champs (AMC)
+# African Mobile Championship
 
-Hosted URL: Africa Mobile Champs
-Description
+Welcome to the **African Mobile Championship**! This platform is dedicated to hosting mobile gaming tournaments across Africa. Here, you can find information about ongoing and upcoming tournaments, team statistics, rosters, and much more.
 
-Africa Mobile Champs (AMC) is a platform built for managing and organizing esports tournaments, players, and teams. The app allows admins to create tournaments, track players, and assign teams, while players can view team details and track their performance.
-Tech Stack
+## Table of Contents
 
-    Frontend: React, Vite, Tailwind CSS
-    Backend: Express.js, Node.js
-    Database: MongoDB (Using Mongoose for schema management)
-    Hosting: Vercel for frontend, MongoDB Atlas for database
-    APIs: Custom REST API for player and team management
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
 
-    Here’s a template for your README.md file based on your project setup:
-Africa Mobile Champs (AMC)
+## Features
 
-Hosted URL: Africa Mobile Champs
-Description
+- **Team Information**: View detailed statistics and rosters for various teams.
+- **Tournament Listings**: Browse through ongoing and upcoming tournaments.
+- **User Registration**: Sign up to participate in tournaments and manage your profile.
 
-Africa Mobile Champs (AMC) is a platform built for managing and organizing esports tournaments, players, and teams. The app allows admins to create tournaments, track players, and assign teams, while players can view team details and track their performance.
-Tech Stack
+## Technologies Used
 
-    Frontend: React, Vite, Tailwind CSS
-    Backend: Express.js, Node.js
-    Database: MongoDB (Using Mongoose for schema management)
-    Hosting: Vercel for frontend, MongoDB Atlas for database
-    APIs: Custom REST API for player and team management
+- **Frontend**: 
+  - React
+  - Tailwind CSS
 
-Features
-
-    Player and Team management
-    Tournament creation
-    Fetch and display teams and their players
-    CRUD operations on players and teams
-
-Installation
-Prerequisites
-
-    Node.js installed on your machine
-    MongoDB instance (e.g., MongoDB Atlas)
-
-Steps
-
-    Clone the repository
-
-
-    git clone https://github.com/JereD1/Africamobilechamps.git
-cd Africamobilechamps
-
-    Install dependencies
-
-bash
-
-npm install
-
-    Set up environment variables
-
-Create a .env file at the root of the project and add your environment variables:
-
-makefile
-
-MONGO_URI=<your_mongo_connection_string>
-PORT=<your_port>
-
-    Run the project locally
-
-bash
-
-npm run dev
-
-Visit the app at http://localhost:3000
-
-
+- **Backend**:
+  - Node.js
+  - Firebase Storage
+  - Firebase Authentication
+  - Express
+  - MongoDB
 
