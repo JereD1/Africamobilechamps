@@ -33,3 +33,6 @@ app.use("/api/african", playerRouter);
 
 // Export the app for serverless functions (ES Module syntax)
 export default app;
+
+
+//npm run start:dev
