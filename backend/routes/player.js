@@ -1,5 +1,5 @@
 import express from "express";
-import { Player } from "../mongoose/schemas/player.mjs"; // Ensure this is the correct import
+import { Player } from "../mongoose/schemas/player.js"; // Ensure this is the correct import
 
 const router = express.Router();
 

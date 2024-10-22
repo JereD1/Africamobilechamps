@@ -1,8 +1,8 @@
-import express, { request, response } from "express";
-import connectDB from "./MongodbConnection.js"; // Note the .js extension
+import express from "express";
+import connectDB from "./MongodbConnection.js";
 import dotenv from "dotenv";
 import cors from "cors";
-import playerRouter from "../routes/player.mjs";
+import playerRouter from "../routes/player.js"; // Ensure this path is correct
 
 dotenv.config();
 const PORT = process.env.PORT || 5050;
@@ -20,12 +20,12 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-app.get("/api", (request, response) => {
-  response.send("AMC Database");
+app.get("/api", (req, res) => {
+  res.send("AMC Database");
 });
 
-//routes
+// Routes
 app.use("/api/african", playerRouter);
 
-// export the app so that it's available for the serverless function to use
-module.exports = app;
+// Export the app for serverless functions (ES Module syntax)
+export default app;
