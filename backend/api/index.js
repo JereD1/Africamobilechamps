@@ -20,6 +20,10 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the home of mobile esport in africa");
+});
+
 app.get("/api", (req, res) => {
   res.send("AMC Database");
 });
