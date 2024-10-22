@@ -1,8 +1,8 @@
 import express from "express";
-import connectDB from "./MongodbConnection.js";
+import connectDB from "./MongodbConnection.mjs";
 import dotenv from "dotenv";
 import cors from "cors";
-import playerRouter from "../routes/player.js"; // Ensure this path is correct
+import playerRouter from "../routes/player.mjs"; // Ensure this path is correct
 
 dotenv.config();
 const PORT = process.env.PORT || 5050;
