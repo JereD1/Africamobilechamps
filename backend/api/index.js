@@ -27,5 +27,5 @@ app.get("/api", (request, response) => {
 //routes
 app.use("/api/african", playerRouter);
 
-//npm run start:dev
-//To start both servers
+// export the app so that it's available for the serverless function to use
+module.exports = app;
