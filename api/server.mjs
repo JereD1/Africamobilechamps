@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(express.json()); // Middleware to parse JSON request bodies
-app.use(cors({ origin: 'https://africamobilechamps.vercel.app'}));
+app.use(cors());
 
 // Start the server
 app.listen(PORT, () => {
