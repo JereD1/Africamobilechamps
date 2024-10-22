@@ -1,9 +1,8 @@
-import express, { request, response } from 'express';
-import connectDB from './MongodbConnection.js'; // Note the .js extension
-import dotenv from 'dotenv';
-import cors from 'cors'
-import playerRouter from '../routes/player.mjs'
-
+import express, { request, response } from "express";
+import connectDB from "./MongodbConnection.js"; // Note the .js extension
+import dotenv from "dotenv";
+import cors from "cors";
+import playerRouter from "../routes/player.mjs";
 
 dotenv.config();
 const PORT = process.env.PORT || 5050;
@@ -26,9 +25,7 @@ app.get("/api", (request, response) => {
 });
 
 //routes
-app.use('/api/african' ,playerRouter);
+app.use("/api/african", playerRouter);
 
-
-//npm run start:dev 
+//npm run start:dev
 //To start both servers
-

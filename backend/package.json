@@ -1,0 +1,21 @@
+{
+  "name": "africamobilechampionship-backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon ./api/server.mjs ",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.7"
+  }
+}
