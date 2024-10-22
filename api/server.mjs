@@ -21,7 +21,7 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-app.get("/", (request, response) => {
+app.get("/api", (request, response) => {
   response.send("AMC Database");
 });
 
