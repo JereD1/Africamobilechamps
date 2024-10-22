@@ -4,7 +4,7 @@ import { Player } from '../mongoose/schemas/player.mjs'; // Ensure this is the c
 const router = express.Router();
 
 // Get all players or filter by query
-router.get('/api/african/players', async (req, res) => {
+router.get('/players', async (req, res) => {
     const { filter, value } = req.query;
 
     try {
@@ -24,7 +24,7 @@ router.get('/api/african/players', async (req, res) => {
 });
 
 // Add a new player
-router.post('/api/african/players', async (req, res) => {
+router.post('/players', async (req, res) => {
     const newPlayer = new Player(req.body);
 
     try {
@@ -37,7 +37,7 @@ router.post('/api/african/players', async (req, res) => {
 });
 
 // Get a player by UID
-router.get('/api/african/players/:UID', async (req, res) => {
+router.get('/players/:UID', async (req, res) => {
     const { UID } = req.params;
 
     try {
@@ -51,7 +51,7 @@ router.get('/api/african/players/:UID', async (req, res) => {
 });
 
 // Update a player by UID
-router.put('/api/african/players/:UID', async (req, res) => {
+router.put('/players/:UID', async (req, res) => {
     const { UID } = req.params;
 
     try {
@@ -65,7 +65,7 @@ router.put('/api/african/players/:UID', async (req, res) => {
 });
 
 // Patch a player by UID
-router.patch('/api/african/players/:UID', async (req, res) => {
+router.patch('/players/:UID', async (req, res) => {
     const { UID } = req.params;
 
     try {
@@ -79,7 +79,7 @@ router.patch('/api/african/players/:UID', async (req, res) => {
 });
 
 // Delete a player by UID
-router.delete('/api/african/players/:UID', async (req, res) => {
+router.delete('/players/:UID', async (req, res) => {
     const { UID } = req.params;
 
     try {

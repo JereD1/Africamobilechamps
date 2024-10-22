@@ -26,7 +26,7 @@ app.get("/api", (request, response) => {
 });
 
 //routes
-app.use(playerRouter);
+app.use('/api/african' ,playerRouter);
 
 
 //npm run start:dev 
