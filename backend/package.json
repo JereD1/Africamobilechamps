@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start:dev": "nodemon ./api/index.js ",
+    "start": "node index.js",
     "lint": "eslint ."
   },
   "dependencies": {
